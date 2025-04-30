@@ -18,7 +18,8 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     
-    <spring-versoin>7.0.0-M4</spring.version> 
+    <spring.versoin>7.0.0-M4</spring.version> 
+    <mysql.version>8.0.33</mysql.version>
   </properties>
 
   <dependencies>
@@ -48,7 +49,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.33</version>
+      <version>${mysql.version}</version>
     </dependency>
 
 
